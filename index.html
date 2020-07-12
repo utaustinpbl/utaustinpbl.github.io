@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 
-
   <title>UT Austin PBL </title>
-<link rel="icon" href="img/logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<link rel="icon" href="img/logo2.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -20,9 +20,28 @@
     line-height: 1.8;
     color: #818181;
   }
+.fa {
+  padding: 0px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color:#007bb5
+  margin: 0px 0px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  //background: #007bb5;
+  color: #007bb5;
+  margin-top: 0px
+}
 
 img {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
 }
   h2 {
@@ -40,8 +59,8 @@ img {
     margin-bottom: 30px;
   }  
   .jumbotron {
-    background-color: #333f48;
-    color: #fff;
+    background-color: #f6f6f6;
+    color: #333f48;
     padding: 100px 0px;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
@@ -55,8 +74,11 @@ img {
   .bg-grey {
     background-color: #f6f6f6;
   }
+.bg-black{
+background-color:#333f48
+}
   .logo-small {
-    color: #f4511e;
+    color: #bf5700;
     font-size: 50px;
   }
   .logo {
@@ -64,14 +86,16 @@ img {
     font-size: 200px;
   }
   .thumbnail {
+  
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
   }
   .thumbnail img {
-    width: 100%;
+    width: 70%;
     height: auto;
     margin-bottom: 10px;
+    
   }
   .carousel-control.right, .carousel-control.left {
     background-image: none;
@@ -186,22 +210,30 @@ img {
       -webkit-transform: translateY(0%);
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 300px) {
     .col-sm-4 {
       text-align: center;
-      margin: 25px 0;
+      margin: 25px ;
+      color: #D3D3D3
+	      }
 	
     }
     .btn-lg {
       width: 100%;
       margin-bottom: 35px;
     }
-  }
-  @media screen and (max-width: 480px) {
+  
+   @media screen and (max-width: 480px) {
     .logo {
       font-size: 150px;
     }
   }
+ 
+img/vibhutii.png{
+ border-radius:50%;
+
+}
+
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -228,18 +260,19 @@ img {
 </nav>
 
 <div class="jumbotron text-center">
+<p><strong>UT Austin FBLA-PBL Chapter </strong></p> 
 
   <img src="img/ut.jpg" alt="UT">
-  <p>LEAD.   INSPIRE.       CREATE. </p>
+  <p><strong>LEAD.   INSPIRE.       CREATE. </strong></p>
  
 </div>
 
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-8"text-center>
       <h2>About FBLA-PBL</h2><br>
-      <h4> UT Austin PBL chapter offers comprehensive professional development experience to all-major students through its career development meetings/workshops, mentor-mentee system, and state & national leadership conferences. We are part of Future Business Leaders of America-Phi Beta Lambda, the largest and most extensive student business organization in United States.</h4><br>
+      <h4> UT Austin PBL offers comprehensive professional development experience to students in all majors through its career development meetings/workshops, mentor-mentee system, and state/national leadership conferences. We are a chapter of Future Business Leaders of America-Phi Beta Lambda (FBLA-PBL), the largest career student business organization in the world.</h4><br>
 
       <h3><strong>Competitive Events Program </strong></h3>
 	<h4>FBLA-PBL's National Awards Program recognizes and rewards excellence in a broad range of business and career-related areas. Through state-based competition at the spring State Leadership Conferences, students compete in events testing their business knowledge and skills. Top state winners then are eligible to compete for honors at the National Leadership Conference each summer.</h4>
@@ -249,9 +282,6 @@ img {
 
 <h3><strong> National Leadership Conference</strong></h3>
 	<h4>FBLA-PBL members have the competitive edge, as the best and brightest of FBLA and PBL convene to compete in leadership events, share their successes, and learn new ideas about shaping their career future through workshops and exhibits.  FBLA-PBL has forged partnerships with industry leaders to underwrite competitive events and scholarships for students achieving national ranking. </h4>
-
-
-
 
       
     </div>
@@ -277,8 +307,7 @@ img {
 
 
 </button>
-  <h4></h4>
-  <br>
+   <br>
   <div class="row slideanim">
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-comment logo-small"></span>
@@ -318,36 +347,51 @@ img {
 
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-white">
-  <h2>LEADERSHIP</h2><br>
-
+  <h2>LEADERSHIP</h2>
+<br>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="img/raman.jpeg" alt="Raman" width="400" height="300">
+        <img src="img/ramann.png" alt="Raman">
         <p><strong>Raman Sethi</strong></p>
         <p>President</p>
 	<p>BHP, Finance</p>
+	<p>Raman is a Business Honors major from the Houston, TX area. This summer, he contributed to his mother’s online retail business as an Inventory and Sourcing Specialist. Outside of his involvement with UT PBL, Raman enjoys trying new food at local restaurants, exploring new states all across the country, and spending time with friends.</p>
+	<a href="http://linkedin.com/in/raman-sethi-134941129" target="_blank" class="fa fa-linkedin"></a>
 
       </div>
     </div>
-    <div class="col-sm-4">
+     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="img/rehan.jpeg" alt="Rehan" width="400" height="300">
+        <img src="img/rehann.png" alt="Rehan" >
         <p><strong>Rehan Rupawalla</strong></p>
         <p>Vice President</p>
 	<p> Plan II & Polymathic Scholars </p>
-      </div>
-    </div>
-    <div class="col-sm-4">
+	<p>Rehan is a Plan II major and a Polymathic Scholar. This past summer, he interned at a small consulting firm that piqued his interest in business. Outside of UT PBL, Rehan loves following soccer, playing board games, and listening to all types of music.</p>
+	<a href="http://linkedin.com/in/rehan-rupawalla-a08a5418a"target="_blank" class="fa fa-linkedin"></a>
+	
+  	 </div>
+	</div>
+     
+   <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="img/saeisha.jpg" alt="VIBHUTI" width="400" height="300">
+        <img src="img/vibhutii.png" alt="VIBHUTI" >
         <p><strong>Vibhuti Sharma</strong></p>
         <p>Director Of Technology</p>
 	<p> Computer Science </p>
-      </div>
-    </div>
-  </div><br>
+	<p>Vibhuti is a Computer Science major from the Houston, TX area. In the summer, she built an handmade goods e-commerce website for a refugee and the UT PBL website.  addition, she interned at Purplle to gain insights about e-commerce logisitcs. Besides UT PBL, Vibhuti enjoys listening to music, going on adventures, and eating good food in her free time.</p>
+	<a href="#" target="_blank" class="fa fa-linkedin"></a>
+
+  	 </div>
+	</div>
+
+       
   
+  </div><br>
+
+</div>
+  
+  <div id="contact" class="container-fluid bg-grey">
   <h2>Who We Are</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
@@ -358,7 +402,7 @@ img {
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner " role="listbox">
       <div class="item active">
         <h4>FBLA-PBL brings industry and education together in a positive relationship</span></h4>
       </div>
@@ -381,10 +425,11 @@ img {
     </a>
   </div>
 </div>
+</div>
 
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
+<div id="contact" class="container-fluid bg">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
@@ -414,7 +459,7 @@ img {
 <!-- Image of location/map -->
 
 
-<footer class="container-fluid text-center">
+<footer class="container-fluid text-center bg-grey">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
