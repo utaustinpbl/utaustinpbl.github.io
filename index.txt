@@ -41,18 +41,18 @@
   margin-top: 0px
 }
 .fa-facebook {
-
+  
   color:#3b5998;
-
+  
 }
 
 .container-fluid fa linkedin {
-
+ 
   color: gray;
 }
 
 .fa-instagram {
-
+  
   color:#e95950;
 }
 .center {
@@ -79,7 +79,7 @@ img {
     color: #303030;
     font-weight: 400;
     margin-bottom: 30px;
-  }
+  }  
   .jumbotron {
     background-color: #f6f6f6;
     color: #333f48;
@@ -96,7 +96,7 @@ img {
   .container-fluid img {
     width:25%;
     height: auto;
-
+   
 
 
   }
@@ -126,7 +126,7 @@ background-color:#333f48
     font-size: 200px;
   }
   .thumbnail {
-
+  
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
@@ -139,8 +139,8 @@ display: block;
   margin-left: auto;
   margin-right: auto;
 
-
-
+	
+    
   }
   .carousel-control.right, .carousel-control.left {
     background-image: none;
@@ -163,7 +163,7 @@ display: block;
     font-style: normal;
   }
   .panel {
-    border: 1px solid #f4511e;
+    border: 1px solid #f4511e; 
     border-radius:0 !important;
     transition: box-shadow 0.5s;
   }
@@ -239,7 +239,7 @@ display: block;
     0% {
       opacity: 0;
       transform: translateY(70%);
-    }
+    } 
     100% {
       opacity: 1;
       transform: translateY(0%);
@@ -249,7 +249,7 @@ display: block;
     0% {
       opacity: 0;
       -webkit-transform: translateY(70%);
-    }
+    } 
     100% {
       opacity: 1;
       -webkit-transform: translateY(0%);
@@ -261,19 +261,19 @@ display: block;
       margin: 25px ;
       color: #D3D3D3
 	      }
-
+	
     }
 
     .btn-lg {
       width: 100%;
       margin-bottom: 35px;
-    }
+    } 
    @media screen and (max-width: 480px) {
     .logo {
       font-size: 150px;
     }
   }
- .column {
+ .column { 
        float: left;
   width: 33.33%;
   padding: 10px;
@@ -297,7 +297,7 @@ color: #00000
     width: 100%;
   }
 }
-
+ 
 
 
 </style>
@@ -311,7 +311,7 @@ color: #00000
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
       </button>
       <a class="navbar-brand" href="#myPage"> PHI BETA LAMBDA AT UT AUSTIN </a>
     </div>
@@ -327,11 +327,11 @@ color: #00000
 </nav>
 
 <div class="jumbotron text-center">
-<p><strong>Future Business Leaders of America-Phi Beta Lambda Chapter At UT Austin </strong></p>
+<p><strong>Future Business Leaders of America-Phi Beta Lambda Chapter At UT Austin </strong></p> 
 
   <img src="img/logo2.png" alt="UT">
   <p><strong>LEAD.   INSPIRE.       CREATE. </strong></p>
-
+ 
 </div>
 
 <!-- Container (About Section) -->
@@ -341,21 +341,21 @@ color: #00000
       <img src="img/fbla.png" alt="FBLA-PBL Logo">
 
       <h4>PBL offers comprehensive professional development experience to students in all majors through its career development meetings/workshops, mentor-mentee system, and state/national leadership conferences. We are a chapter of Future Business Leaders of America-Phi Beta Lambda (FBLA-PBL), the largest career student business organization in the world.Learn more about PBL <a href="https://www.fbla-pbl.org/about/" target="_blank"> here</a>. </h4><br>
-
+  
 
       <div class="row">
   <div class="column text-center" style="background-color:#0000;">
        <h3><strong>Competitive Events Program </strong></h3>
 	<h4>FBLA-PBL's National Awards Program recognizes and rewards excellence in a broad range of business and career-related areas. Through state-based competition at the spring State Leadership Conferences, students compete in events testing their business knowledge and skills. Top state winners then are eligible to compete for honors at the National Leadership Conference each summer. Learn more about the different competitive events <a href="https://www.fbla-pbl.org/pbl/competitive-events/" target="_blank"> here</a>.</h4>
-
+    
   </div>
   <div class="column text-center" style="background-color:#0000;">
    <h3><strong>Business Education </strong></h3>
-	<h4>Being part of the PBL means learning new business fundamental skills and etiquette through conferences and competitions. As well as through our personal boot camps each semester that helps to foster interpersonal and business skills. Our slack channel promotes discussion about current business events domestically and internationally.
+	<h4>Being part of the PBL means learning new business fundamental skills and etiquette through conferences and competitions. As well as through our personal boot camps each semester that helps to foster interpersonal and business skills. Our slack channel promotes discussion about current business events domestically and internationally. 
 </h4>
 
 
-
+    
   </div>
   <div class="column text-center" style="background-color:#0000;">
   <h3><strong> National Leadership Conference</strong></h3>
@@ -368,13 +368,13 @@ color: #00000
 <h3><strong>Team Culture</strong></h3>
 	<h4>Outside of our commitments to PBL, we enjoy grabbing food, studying together, organizing social events, or discussing non-business related topics.  Our team is made up of individuals who are committed to becoming an active part of a close-knit community and enjoy having fun just as much as being part of PBL. </h4>
 
-
+    
   </div>
   <div class="column text-center" style="background-color:#0000;">
 
 <h3><strong>Monthly Meetings </strong></h3>
 	<h4>Our monthly meetings vary in topic but are all insightful and help to immerse our members into the corporate business world. Occasionally, we have a lesson taught by a guest speaker that has business experience in a specific industry. Alternatively, we hold a Bootcamp to help improve a certain skill. Other times we just like to hang out with each other with games and refreshments! </h4>
-
+    
   </div>
   <div class="column text-center" style="background-color:#0000;">
          <h3><strong>Conferences & Seminars </strong></h3>
@@ -385,7 +385,7 @@ color: #00000
 
 
     </div>
-
+    
   </div>
 </div>
 
@@ -456,32 +456,14 @@ color: #00000
 	</div>
 	 <div class="titlepos">
         <p>Chapter President</p>
+	<p>Texas PBL State President</p>
 	</div>
 	<p>BHP, Finance</p>
-	<p>Raman is a Business Honors major from Houston, TX. This summer, he contributed to an online retail business as an Inventory & Sourcing Specialist. Outside of his involvement with PBL, Raman enjoys eating at local restaurants, exploring new states, and spending time with friends.</p>
+	<p>Raman is a Business Honors major from the Houston, TX area. This summer, he contributed to an online retail business as an Inventory and Sourcing Specialist. Outside of his involvement with PBL, Raman enjoys trying new food at local restaurants, exploring new states all across the country, and spending time with friends.</p>
 	<a href="http://linkedin.com/in/raman-sethi-134941129" target="_blank" class="fa fa-linkedin"></a>
 
       </div>
     </div>
-
-    <div class="col-sm-4">
-       <div class="thumbnail">
-         <img src="img/vibhuti.png" alt="VIBHUTI" >
-   <div class="name-main">
-         <p>Vibhuti Sharma</p>
-   </div>
-   <div class="titlepos">
-         <p>Vice President Of Technology</p>
-   </div>
-   <p> Computer Science </p>
-   <p>Vibhuti is a Computer Science major from the Houston, TX area. In the summer, she built a handicraft e-commerce website for a refugee and the PBL UT website. Besides PBL at UT, she enjoys curating Spotify playlists, trying creative foods, and exploring nature.</p>
-
-   <a href="https://www.linkedin.com/in/vibhuti-sharma-56b6701b2/" target="_blank" class="fa fa-linkedin"></a>
-
-
-      </div>
-
-       </div>
 
      <div class="col-sm-4">
       <div class="thumbnail">
@@ -495,10 +477,27 @@ color: #00000
 	<p> Plan II & Polymathic Scholars </p>
 	<p>Rehan is a Plan II major and a Polymathic Scholar. This past summer, he interned at a small consulting firm that piqued his interest in business. Outside of the organization, Rehan loves following soccer, (winning) playing board games, and listening to all types of music.</p>
 	<a href="http://linkedin.com/in/rehan-rupawalla-a08a5418a"target="_blank" class="fa fa-linkedin"></a>
+	
+  	 </div>
+	</div>
+     
+   <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="img/vibhuti.png" alt="VIBHUTI" >
+	<div class="name-main">
+        <p>Vibhuti Sharma</p>
+	</div>
+	<div class="titlepos">
+        <p>Vice President Of Technology</p>
+	</div>
+	<p> Computer Science </p>
+	<p>Vibhuti is a Computer Science major from the Houston, TX area. In the summer, she built a handicraft e-commerce website for a refugee and the PBL UT website.  In addition, she interned at Purplle to gain insights about e-commerce logistics. Besides PBL at UT, Vibhuti enjoys listening to music, hanging out with friends, and exploring nature.</p>
+
+	<a href="https://www.linkedin.com/in/vibhuti-sharma-56b6701b2/" target="_blank" class="fa fa-linkedin"></a>
+
 
   	 </div>
 	</div>
-
 
   </div>
 
@@ -506,6 +505,9 @@ color: #00000
 
 
 <h2>Team</h2>
+<h4>Fall 2020 Positions: Marketing Outreach <a href="http://tinyurl.com/utpblofficer" target="_blank" > Apply Here</a> </h4> 
+
+<h4>Recruiting for other positions will be in Spring 2021; applications will be available in December. </h4>
 
 <div class="row text-center slideanim">
 
@@ -519,24 +521,9 @@ color: #00000
         <p>Faculty Advisor</p>
 	</div>
 	<p>David holds a MSc in Philosophy and Public Policy from The London School of Economics (LSE), a Law degree from St. Mary's University, and a Government degree from UT Austin. He is a business owner and attorney, having served in numerous leadership roles for multiple companies. Learn more about him <a href="https://www.mccombs.utexas.edu/Directory/Profiles/Quintanilla-David/" target="_blank"> here</a>.</p>
-
+	
       </div>
     </div>
-
-      <div class="col-sm-4">
-       <div class="thumbnail">
-         <img src="img/emily.png" alt="Emily">
-    <div class="name-main">
-         <p>Emiliy Lim </p>
-    </div>
-    <div class="titlepos">
-         <p>Design Lead</p>
-    </div>
-    <p> Business </p>
-    <p>Emily is a Management Information Systems (MIS) major from the DFW area. In the summer, she interned at Lockheed Martin as an Applications Analyst while beating the summer heat with swimming daily. Other than PBL, Emily enjoys hanging out with her friends and family by traveling, exploring, and eating!</p>
-    <a href="https://www.linkedin.com/in/emily-lim-6600877a" target="_blank" class="fa fa-linkedin"></a>
-       </div>
-     </div>
 
      <div class="col-sm-4">
       <div class="thumbnail">
@@ -549,34 +536,26 @@ color: #00000
 	</div>
 	<p> Finance </p>
 	<p>Sharan is a Finance major from Plano, Texas. This summer, he completed economic research and data analysis at a COVID-19 non-profit organization. Outside of PBL, Sharan enjoys following football, eating at his favorite places (Taco Bell), and spending time with his family.</p>
-	<a href="https://www.linkedin.com/in/sharantatineni/" target="_blank" class="fa fa-linkedin"></a>
+	<a href="https://www.linkedin.com/in/sharantatineni/" target="_blank" class="fa fa-linkedin"></a>	
   	 </div>
 	</div>
 
-
-
-</div>
-
-<div class="row text-center slideanim">
-
-      <div class="col-sm-4">
-       <div class="thumbnail">
-         <img src="img/yash.png" alt="Yash">
-    <div class="name-main">
-         <p>Yash Goyal </p>
+     <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="img/emily.png" alt="Emily">
+	<div class="name-main">
+        <p>Emiliy Lim </p>
+	<p>Design Officer</p>
+	</div>
+	<div class="titlepos">
+        <p>Design Lead</p>
+	</div>
+	<p> Business </p>
+	<p>Emily is a Management Information Systems (MIS) major from the DFW area. In the summer, she interned at Lockheed Martin as an Applications Analyst while beating the summer heat with swimming daily. Other than PBL, Emily enjoys hanging out with her friends and family by traveling, exploring, and eating!</p>
+	<a href="https://www.linkedin.com/in/emily-lim-6600877a" target="_blank" class="fa fa-linkedin"></a>
+      </div>
     </div>
-    <div class="titlepos">
-         <p>Outreach Officer</p>
-    </div>
-    <p> Business </p>
-    <p>Yash is a Finance major from Allen, TX. This summer, he worked as a business development intern for a startup company in Austin. Outside of PBL, Yash enjoys following basketball, being disappointed by the Cowboys, and watching Brooklyn Nine-Nine.</p>
-    <a href="https://www.linkedin.com/in/yash-goyal-b8975b152/" target="_blank" class="fa fa-linkedin"></a>
-       </div>
-     </div>
 
-
-
-</div>
 
 </div>
 
@@ -592,7 +571,7 @@ color: #00000
         <p>Faculty Advisor</p>
 	</div>
 	<p>David holds a MSc in Philosophy and Public Policy from The London School of Economics (LSE), a Law degree from St. Mary's University, and a Government degree from UT Austin. He is a business owner and attorney, having served in numerous leadership roles for multiple companies. Learn more about him here.</p>
-
+	
 
       </div>
 	</div>
@@ -611,14 +590,14 @@ color: #00000
 	<a href="https://www.linkedin.com/in/sharantatineni/" target="_blank" class="fa fa-linkedin"></a>
 
       </div>
-
+   
   </div><br>
 -->
 
+ 
 
 
-
-
+  
   <div id="contact" class="container-fluid text-center bg-grey">
   <h2>Our Mission</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
@@ -718,13 +697,13 @@ $(document).ready(function(){
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 900, function(){
-
+   
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
     } // End if
   });
-
+  
   $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
